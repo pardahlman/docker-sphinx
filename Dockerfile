@@ -4,4 +4,4 @@ COPY docker-entrypoint.sh /docker-entrypoint.sh
 CMD mkdir /docs
 WORKDIR /docs
 EXPOSE 8000
-ENTRYPOINT ["docker-entrypoint.sh"]
+ENTRYPOINT ["/docker-entrypoint.sh"]
