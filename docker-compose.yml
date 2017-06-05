@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  sphinx:
+    image: pardahlman/sphinx
+    volumes:
+      - ./docs:/docs
+    ports:
+      - 8000:8000
