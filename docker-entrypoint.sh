@@ -6,4 +6,4 @@ if [ ! -f ./conf.py ]; then
     tail -F /dev/null
 fi
 
-sphinx-autobuild . _build_html -H 0.0.0.0
+sphinx-autobuild . _build_html -H 0.0.0.0 --poll
